@@ -113,7 +113,7 @@ def main():
     est, hom = fato["valor_total_estimado"], fato["valor_total_homologado"]
     razao = hom / est
     fato["comparavel"] = ((fato["modalidade_id"] != 12) & razao.between(0.1, 10)).astype(int)
-    fato["economia_valor"] = (est - hom).where(fato["comparavel"] == 1, 0.0).round(2)
+    fato["economia_valor"] = (est - hom).where(fato["comparavel"] == 1).round(2)
 
     # =========================================================================================
     # ETAPA 7 - CRONOLOGIA  (regra 7)
