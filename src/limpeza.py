@@ -192,7 +192,7 @@ CASOS = [
 def testar():
     import sys
     try:
-        sys.stdout.reconfigure(encoding="utf-8")        # para o ✔ e o ✘ aparecerem em qualquer terminal
+        sys.stdout.reconfigure(encoding="utf-8")       
     except (AttributeError, ValueError):
         pass
     acertos = 0
@@ -200,7 +200,7 @@ def testar():
         try:
             obtido = globals()[nome](*args)
             ok = obtido == esperado
-        except Exception as erro:                       # funcao ainda com ____ (NameError) ou com erro
+        except Exception as erro:                       
             obtido, ok = f"erro: {type(erro).__name__}", False
         acertos += ok
         if not ok:
