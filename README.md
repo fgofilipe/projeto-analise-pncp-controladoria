@@ -6,13 +6,16 @@ Pipeline de dados de ponta a ponta para auditoria, tratamento e análise de cont
 
 > **Fonte dos dados:** Portal Nacional de Contratações Públicas (PNCP) / Dados Abertos do Governo Federal. O projeto utiliza o recorte de **2025**, a partir dos arquivos `compras.csv`, `itens.csv` e `resultados.csv` fornecidos para a atividade.
 
-## Links da apresentação e do dashboard
 
-| Recurso | Acesso |
+## 🔗 Links da apresentação e do dashboard
+
+| Recurso | Link |
 |---|---|
-| **Vídeo de apresentação (Loom)** - **** |
-| **Dashboard Power BI (publicado)** - **projeto_controladoria.pbix** |
-| **Vídeo no Google Drive — entrega exigida no enunciado** - **** |
+| 🎥 Vídeo de apresentação (Loom) | [Assistir à apresentação](https://www.loom.com/share/a9070e27d3054788a0af29eaf9bf1054) |
+| 📁 Documentação no Google Drive | [Acessar documento](https://docs.google.com/document/d/1WkGDwpDBc3aggr2kXuERtQGrGfNeBXSfnjIlXJmDpTY/edit?usp=sharing) |
+| 💻 Repositório GitHub | [Acessar código-fonte do projeto](https://github.com/fgofilipe/projeto-analise-pncp-controladoria) |
+| 📊 Dashboard Power BI (.pbix) | [Acessar pasta Power BI](https://github.com/fgofilipe/projeto-analise-pncp-controladoria/tree/main/powerbi) |
+
 
 ## 1. Contexto e problema de negócio
 
